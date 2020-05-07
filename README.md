@@ -1,14 +1,30 @@
-# Default starter for Gridsome
+# Konsul Website
 
-This is the project you get when you run `gridsome create new-project`.
+This repository holds the [Gridsome](https://gridsome.org) project for the Konsul group website.
 
-### 1. Install Gridsome CLI tool if you don't have
+## Deployments
+
+* [Production](https://konsul.devops.htu/)
+* [Development](https://konsul.dev.devop.htu/)
+
+
+## Requirements
+
+1. Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
 
-### 2. Create a Gridsome project
+## Running the Project for Local Development
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+0. Clone this repository `git@github.com:geokhoury/htu-devops-konsul-web.git`
+1. `cd htu-devops-konsul-web` to open the folder
+2. `gridsome develop` to start a local dev server at `http://localhost:8080`
+3. Happy coding 🎉🙌
+
+## Building the Project
+
+### For Local Development
+
+### For Production
+
+Use `gridsome build` to build the project for production. The default output directory is `dist`.
